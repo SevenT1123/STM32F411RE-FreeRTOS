@@ -316,6 +316,7 @@ void StartTask2(void *argument)
   for(;;)
   {
 	printf("Task-2 \n");
+	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
     osDelay(1000);
   }
   /* USER CODE END StartTask2 */

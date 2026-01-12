@@ -6,3 +6,4 @@
 !/KhoaFreeRTOSTest.ioc
 
 !.gitignore
+/Debug/
